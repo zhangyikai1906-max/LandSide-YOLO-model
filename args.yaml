@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: D:\python\2025\train\Myolotrain\models\yolov8m.pt
-data: D:\python\2025\train\Myolotrain\app\static\datasets\d0f7d4b5-a63f-416e-8447-de8b5ac36f4c\dataset.yaml
+model: yolov8m.pt
+data: d0f7d4b5-a63f-416e-8447-de8b5ac36f4c\dataset.yaml
 epochs: 100
 time: null
 patience: 50
@@ -12,7 +12,7 @@ save_period: -1
 cache: false
 device: '0'
 workers: 0
-project: D:\python\2025\train\Myolotrain\app\static\models\training_61d5ff70-b65e-47fb-a7f5-3bb214395f59
+project: \training_61d5ff70-b65e-47fb-a7f5-3bb214395f59
 name: exp
 exist_ok: true
 pretrained: true
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: D:\python\2025\train\Myolotrain\app\static\models\training_61d5ff70-b65e-47fb-a7f5-3bb214395f59\exp
+save_dir:training_61d5ff70-b65e-47fb-a7f5-3bb214395f59\exp
